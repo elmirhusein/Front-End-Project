@@ -1,0 +1,66 @@
+nav{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1800px;
+    margin:  0 auto;
+    .left{
+        display: flex;
+        gap : 20px;
+        align-items: center;
+        label {
+            display: flex;
+            opacity: .7;
+            &:hover{
+                opacity: 1;
+            }
+        }
+    }
+
+    .right{
+        display: flex;
+        gap : 50px;
+        form{
+            input{
+                border: none;
+                padding: 10px 40px 10px 10px;
+                border-bottom: 2px solid #212219;
+                opacity: .7;
+                background: url("../../img/search.svg");
+                background-position: right center;
+                background-repeat:  no-repeat;
+                background-size:  20px 20px;
+                outline: none;
+                font-size: 16px;
+                &:focus{
+                    opacity: 1;
+                }
+            }
+        }
+        .actions {
+            display: flex;
+            align-items: center;
+            gap : 15px;
+            img {
+                width: 24px;
+                cursor: pointer;
+            }
+            
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    nav {
+        .left {
+            & > label {
+                display: none;
+            }
+        }
+        .right{
+            form {
+                display: none;
+            }
+        }
+    }
+}

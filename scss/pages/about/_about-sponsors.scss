@@ -1,0 +1,21 @@
+section.about-sponsors{
+    padding: 60px 0 ;
+    background-color: #f8f9fa;
+
+    .logos{
+
+        display: flex;
+        justify-content: space-between;
+    }
+    img{
+        max-width: 100px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    section.about-sponsors{
+        img {
+            width: 80px;
+        }
+    }
+}

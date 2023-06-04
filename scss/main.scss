@@ -1,0 +1,45 @@
+
+@import "./base/reset";
+
+@import "./abstracts/mixins";
+@import "./abstracts/variables";
+
+
+
+
+
+
+
+
+
+
+
+@import "./components/header";
+@import "./components/nav";
+@import "./components/footer";
+@import "./components/basket-modal";
+@import "./components/dropdown";
+
+@import "./pages//index/index-intro";
+@import "./pages/index/index-deal";
+@import "./pages/index/index-new";
+@import "./pages/index/index-summer";
+
+
+@import "./pages/about/about-intro";
+@import "./pages/about/about-timeline";
+@import "./pages/about/about-at";
+@import "./pages/about/about-sponsors";
+@import "./pages/about/about-team";
+@import "./pages/about/about-milestones";
+
+@import "./pages/blog/blog-intro";
+@import "./pages/blog/blog-blogs";
+
+@import "./pages/contact/contact-intro";
+@import "./pages/contact/contact-info"
+
+
+
+
+
